@@ -85,4 +85,8 @@ export class ArtistaListaComponent implements OnInit {
   consultar(artista) {
     this.router.navigate(['artistas', artista.id]);
   }
+
+  cadastrar() {
+    this.router.navigate(['artistas', 'cadastrar']);
+  }
 }
