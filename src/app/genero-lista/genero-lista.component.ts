@@ -50,4 +50,8 @@ export class GeneroListaComponent implements OnInit {
     this.router.navigate(['generos', genero.id]);
   }
 
+  cadastrar() {
+    this.router.navigate(['generos', 'cadastrar']);
+  }
+
 }
